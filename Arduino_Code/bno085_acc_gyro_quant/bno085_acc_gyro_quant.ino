@@ -15,9 +15,9 @@ float qw = 0, qx = 0, qy = 0, qz = 0;
 float roll = 0, pitch = 0, yaw = 0;
 
 // Timing
-#define IMU_INTERVAL_US 10000    // 50 Hz
+#define IMU_INTERVAL_US 10000    // 100 Hz
 //#define SEMG_INTERVAL_US 1250    // 800 Hz
-#define SEMG_INTERVAL_US 10000    // 1000 Hz
+#define SEMG_INTERVAL_US 10000    // 100 Hz
 
 unsigned long lastImuMicros = 0;
 unsigned long lastSemgMicros = 0;
